@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "outDir": "lib",
+    "skipLibCheck": true,
+    "rootDir": "./",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "typeRoots": [],
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "target": "es6",
+    "noUnusedLocals": true,
+    "lib": ["dom", "dom.iterable", "scripthost", "esnext"],
+    "types": ["chai", "chai-as-promised", "mocha", "googlemaps"]
+  }
+}
